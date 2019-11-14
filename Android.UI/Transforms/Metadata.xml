@@ -1,0 +1,68 @@
+﻿<metadata>
+
+  <!-- Neither of these methods get auto created but even adding them here doesn't help -->
+  <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialize"
+        native="false"
+        return="io.mpos.ui.shared.MposUi"
+        jni-return="Lio/mpos/ui/shared/MposUi;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lio/mpos/provider/ProviderMode;Lio/mpos/ui/acquirer/ApplicationName;Ljava/lang/String;)Lio/mpos/ui/shared/MposUi;">
+    <!--<parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="providerMode"
+          type="io.mpos.provider.ProviderMode"
+          jni-type="Lio/mpos/provider/ProviderMode;" />
+        <parameter
+          name="applicationName"
+          type="io.mpos.ui.acquirer.ApplicationName"
+          jni-type="Lio/mpos/ui/acquirer/ApplicationName;" />
+        <parameter
+          name="integratorIdentifier"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />-->
+  </method>
+
+  <method
+    abstract="false"
+    deprecated="not deprecated"
+    final="false"
+    name="initialize"
+    native="false"
+    return="io.mpos.ui.shared.MposUi"
+    jni-return="Lio/mpos/ui/shared/MposUi;"
+    static="true"
+    synchronized="false"
+    visibility="public"
+    bridge="false"
+    synthetic="false"
+    jni-signature="(Landroid/content/Context;Lio/mpos/provider/ProviderMode;Ljava/lang/String;Ljava/lang/String;)Lio/mpos/ui/shared/MposUi;">
+    <!--<parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="mode"
+          type="io.mpos.provider.ProviderMode"
+          jni-type="Lio/mpos/provider/ProviderMode;" />
+        <parameter
+          name="merchantIdentifier"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="merchantSecret"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />-->
+  </method>
+
+</metadata>

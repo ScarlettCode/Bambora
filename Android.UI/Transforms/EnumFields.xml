@@ -1,0 +1,15 @@
+﻿<enum-field-mappings>
+
+  <!-- It doesn't auto create these so trying to add them manually -->
+  <mapping jni-class="io/mpos/provider/ProviderMode" clr-enum-type="IO.Mpos.UI.Shared.ProviderMode">
+    <field jni-name="UNKNOWN" clr-name="Unknown" value="0" />
+    <field jni-name="MOCK" clr-name="Mock" value="1" />
+    <field jni-name="TEST" clr-name="Test" value="2" />
+    <field jni-name="LIVE" clr-name="Live" value="3" />
+    <field jni-name="JUNGLE" clr-name="Jungle" value="4" />
+    <field jni-name="TEST_FIXED" clr-name="TestFixed" value="5" />
+    <field jni-name="LIVE_FIXED" clr-name="LiveFixed" value="6" />
+  </mapping>
+
+
+</enum-field-mappings>
