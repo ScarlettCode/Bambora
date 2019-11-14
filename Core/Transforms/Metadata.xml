@@ -1,0 +1,21 @@
+﻿<metadata>
+  
+  <!--
+  remove everything and add back what we want. Too many errors to fix
+  -->
+
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.accessories')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.accounts')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.annotations')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.errors')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.mock')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.mposExtended')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.paymentDetails')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.platform')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.shared')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.specs')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.mpos.transactionprovider')]" />
+  
+  <remove-node path="/api/package[@name='io.mpos.transactions.parameters']/class[@name='ActivationBuilder']/method[@name='metadata']" />
+
+</metadata>
