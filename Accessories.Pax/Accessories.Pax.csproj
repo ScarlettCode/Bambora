@@ -67,13 +67,15 @@
     <EmbeddedReferenceJar Include="Jars\jackson-databind-2.5.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\kotlin-stdlib-jdk7-1.3.50.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\kotlin-stdlib-1.3.50.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\bolts-android-1.2.1.jar" />
+    <PackageReference Include="Bolts">
+      <Version>1.4.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Karamunting.Kotlin.StdLib">
+      <Version>1.3.50</Version>
+    </PackageReference>
+    <PackageReference Include="Karamunting.Kotlin.StdLib.Jdk8">
+      <Version>1.3.50</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
